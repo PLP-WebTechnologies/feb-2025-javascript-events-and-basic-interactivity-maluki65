@@ -1,0 +1,31 @@
+body {
+font-family: Arial, sans-serif;
+background-color: white;
+color: #333;
+padding: 20px;
+transition: background-color 0.3s ease;
+}
+
+body.dark {
+background-color: #121212;
+color: white;
+}
+
+.container {
+max-width: 400px;
+margin: auto;
+}
+
+input, textarea {
+width: 100%;
+margin-top: 5px;
+margin-bottom: 15px;
+padding: 8px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+button {
+padding: 10px 15px;
+cursor: pointer;
+}
