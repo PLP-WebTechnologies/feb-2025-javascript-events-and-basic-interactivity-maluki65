@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Form Demo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Contact Us</h1>
+    <button id="toggleTheme">Toggle Theme</button>
+
+    <form id="contactForm">
+      <label>Name:
+        <input type="text" id="name" placeholder="Your name" required />
+      </label>
+      <label>Email:
+        <input type="email" id="email" placeholder="Your email" required />
+      </label>
+      <label>Message:
+        <textarea id="message" placeholder="Your message" required></textarea>
+      </label>
+      <button type="submit">Send</button>
+    </form>
+
+    <p id="greeting"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
